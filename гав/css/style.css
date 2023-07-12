@@ -95,8 +95,23 @@ h2 {
   gap: 64px;
   align-items: center;
 }
+@media (max-width: 768px) {
+  .pet__container {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .pet__container_reverse {
+    flex-wrap: wrap-reverse;
+  }
+}
 .pet__block {
   flex-basis: 49%;
+}
+@media (max-width: 768px) {
+  .pet__block {
+    flex-basis: 100%;
+  }
 }
 .pet__title {
   margin-bottom: 16px;

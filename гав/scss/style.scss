@@ -126,10 +126,24 @@ h2 {
 		display: flex;
 		gap: 64px;
 		align-items: center;
+
+		@media(max-width: 768px) {
+			flex-wrap: wrap;
+		}
+
+		&_reverse {
+			@media(max-width: 768px) {
+				flex-wrap: wrap-reverse;
+			}
+		}
 	}
 
 	&__block {
 		flex-basis: 49%;
+
+		@media(max-width: 768px) {
+			flex-basis: 100%;
+		}
 	}
 
 	&__title {
