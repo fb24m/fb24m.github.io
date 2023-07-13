@@ -1,0 +1,17 @@
+{
+	"items": [
+		{
+			"displayname": "главная",
+			"url": "index.html"
+		}, {
+			"displayname": "Коты",
+			"url": "zoo.html?page=cats"
+		}, {
+			"displayname": "собаки",
+			"url": "zoo.html?page=dogs"
+		}, {
+			"displayname": "Крысы (в разработке)",
+			"url": "zoo.html?page=rats"
+		}
+	]
+}

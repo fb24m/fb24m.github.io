@@ -10,65 +10,68 @@
 
 <body>
 	<div class="wrapper">
-		<div class="header">
+		<header class="header">
 			<div class="header__container">
 				<img src="img/Logo.svg" alt="" class="header__logo">
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="#" class="menu__link" data-jump="cats">Коты</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Собаки (в разработке)</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Крысы (в разработке)</a></li>
 						</ul>
 					</nav>
 				</div>
 			</div>
-		</div>
-		<div class="welcome">
-			<div class="welcome__container">
-				<div class="welcome__block">
-					<h1 class="welcome__title">я не ашот</h1>
-					<p class="welcome__description">Добро пожаловать в нашу галерею питомцев! Здесь вы найдете самые удивительные
-						и забавные фотографии домашних животных. Мы собрали для вас лучшие снимки кошек, собак, хомяков, попугаев и
-						других представителей фауны.</p>
-					<a href="#" class="welcome__button button button_color_black" data-jump="cats">Начать</a>
-				</div>
-				<div class="welcome__block">
-					<img src="img/welcome-image.png" alt="" class="welcome__image">
-				</div>
-			</div>
-		</div>
-		<div class="pet" id="cats">
-			<div class="pet__container">
-				<div class="pet__block">
-					<h2 class="pet__title">Марс</h2>
-					<p class="pet__description">Это яркий и запоминающийся питомец. Он обладает густой и пушистой рыжей шерстью,
-						которая делает его еще более привлекательным. Его глаза обычно зеленые или желтые, а его уши большие и
-						заостренные. Рыжий кот очень подвижен и активен, он любит играть и бегать за мячиком. Он также очень ласков
-						и любит быть рядом со своими хозяевами, особенно если они дают ему много внимания и ласки.</p>
-				</div>
-				<div class="pet__block">
-					<img src="img/pet-1.png" alt="" class="pet__image">
+		</header>
+		<main class="main">
+			<div class="welcome">
+				<div class="welcome__container">
+					<div class="welcome__block">
+						<h1 class="welcome__title">я не ашот</h1>
+						<p class="welcome__description">Добро пожаловать в нашу галерею питомцев! Здесь вы найдете самые
+							удивительные
+							и забавные фотографии домашних животных. Мы собрали для вас лучшие снимки кошек, собак, хомяков, попугаев
+							и
+							других представителей фауны.</p>
+						<a href="#" class="welcome__button button button_color_black" data-jump="cats">Начать</a>
+					</div>
+					<div class="welcome__block">
+						<img src="img/welcome-image.png" alt="" class="welcome__image">
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="pet">
-			<div class="pet__container_reverse pet__container">
-				<div class="pet__block">
-					<img src="img/pet-2.png" alt="" class="pet__image">
-				</div>
-				<div class="pet__block">
-					<h2 class="pet__title">Мурзик</h2>
-					<p class="pet__description">Очень активный и игривый питомец. Он любит бегать за игрушками и прыгать на людей.
-						Но при этом он очень ласковый и нежный. Рыжие коты часто становятся настоящими друзьями для своих хозяев и
-						проводят с ними много времени.
-						<br><br>
-						Кроме того – отличный охотник. Он умеет ловить мышей и других мелких животных, что делает его полезным для
-						владельцев загородных домов.
-					</p>
+			<div class="pet" id="cats">
+				<div class="pet__container">
+					<div class="pet__block">
+						<h2 class="pet__title">Коты</h2>
+						<p class="pet__description">Это яркий и запоминающийся питомец. Он обладает густой и пушистой рыжей шерстью,
+							которая делает его еще более привлекательным. Его глаза обычно зеленые или желтые, а его уши большие и
+							заостренные. Рыжий кот очень подвижен и активен, он любит играть и бегать за мячиком. Он также очень
+							ласков
+							и любит быть рядом со своими хозяевами, особенно если они дают ему много внимания и ласки.</p>
+						<a href="zoo.html?page=cats" class="pet__button button button_color_black">Перейти</a>
+					</div>
+					<div class="pet__block">
+						<img src="img/pet-1.png" alt="" class="pet__image">
+					</div>
 				</div>
 			</div>
-		</div>
+			<div class="pet">
+				<div class="pet__container_reverse pet__container">
+					<div class="pet__block">
+						<h2 class="pet__title">Собаки</h2>
+						<p class="pet__description">это настоящий друг и защитник. Собака обладает мощным телом, широкой грудью и
+							сильными лапами, что позволяет ей легко преодолевать большие расстояния и быстро реагировать на опасность.
+							Ее шерсть сияет чистотой и блеском, а глаза светятся умом и преданностью. Такая собака станет верным
+							спутником для своего хозяина, готовым всегда быть рядом и защищать его.
+						</p>
+						<a href="zoo.html?page=dogs" class="pet__button button button_color_black">Перейти</a>
+					</div>
+					<div class="pet__block">
+						<img src="img/photo_2023-07-13_17-54-58.jpg" alt="" class="pet__image">
+					</div>
+				</div>
+			</div>
+		</main>
+
 	</div>
 	<script src="js/script.js"></script>
 </body>
