@@ -72,7 +72,7 @@ const loadZooPage = async (name) => {
 	});
 }
 
-if (location.pathname === '/zoo.html') {
+if (location.pathname.includes('zoo.html')) {
 	const pageType = getQueryVariable('page');
 
 	loadZooPage(pageType);
