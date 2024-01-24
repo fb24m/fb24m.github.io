@@ -1,0 +1,39 @@
+/* OpenSans Regular */
+
+@font-face {
+    font-family: "OpenSans";  
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 400;
+    font-display: swap;
+}
+
+/* OpenSans Light */
+
+@font-face {
+    font-family: "OpenSans";  
+    src: url("../fonts/OpenSans-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 300;
+    font-display: swap;
+}
+
+/* OpenSans SemiBold */
+
+@font-face {
+    font-family: "OpenSans";  
+    src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 600;
+    font-display: swap;
+}
+
+/* Inter SemiBold */
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-SemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+}
